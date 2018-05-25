@@ -21,10 +21,9 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 ```
 cd ~/.vim
-git clone ... ( 미정 )
+git clone https://github.com/dydgns2017/RaspberryPi_vimplug.git 
 vim "+:PlugInstall" + q
 ```
-
 
 
 ## Reference
