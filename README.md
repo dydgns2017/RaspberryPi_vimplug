@@ -6,7 +6,11 @@
 
 ```
 sudo apt-get update && sudo apt-get install -y vim
+```
+```
 sudo apt-get install -y vim-python-jedi
+```
+```
 sudo apt-get install -y cmake
 ```
 
@@ -28,13 +32,15 @@ mv RaspberryPi_vimplug/.vimrc RaspberryPi_vimplug/.vimrc.local ~
 vim "+:PlugInstall" 
 ```
 
+플러그인이 설치가 완료되면 :qa!로 vim을 종료시킨 뒤에 밑의 스크립트 실행
+
 ```
 ## youcompleteMe Error Fix
 cd ~/.vim/plugged/youcompleteme
 ./install.py
 ```
 
-플러그인이 설치가 완료되면 :qa!로 vim을 종료시킨 뒤에 정상적으로 동작되는지 테스트해보세요 :D
+vim 편집기가 잘 동작하는지 실행.
 
 ## Reference
 https://github.com/junegunn/vim-plug <br />
