@@ -22,7 +22,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ```
 cd ~/.vim
 git clone ... ( 미정 )
-vim "+:PlugInstall"
+vim "+:PlugInstall" + q
 ```
 
 
