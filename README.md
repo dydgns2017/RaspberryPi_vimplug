@@ -25,9 +25,10 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 cd ~/.vim
 git clone https://github.com/dydgns2017/RaspberryPi_vimplug.git 
 mv RaspberryPi_vimplug/.vimrc RaspberryPi_vimplug/.vimrc.local ~ 
-vim "+:PlugInstall" + qa!
+vim "+:PlugInstall" 
 ```
 
+플러그인이 설치가 완료되면 :qa!로 vim을 종료시킨 뒤에 정상적으로 동작되는지 테스트해보세요 :D
 
 ## Reference
 https://github.com/junegunn/vim-plug <br />
