@@ -29,5 +29,5 @@ vim+PlugInstall+q
 
 
 ## Reference
-https://github.com/junegunn/vim-plug \\
+https://github.com/junegunn/vim-plug  \n
 https://bluesh55.github.io/2016/10/09/vim-ide/
