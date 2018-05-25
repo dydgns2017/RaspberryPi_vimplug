@@ -18,13 +18,9 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 ## Configuration
 
 ```
-
-cp /etc/vim/vimrc ~/.vim/
 cd ~/.vim
 git clone ... ( 미정 )
-
 vim+PlugInstall+q
-
 ```
 
 
