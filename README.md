@@ -17,13 +17,12 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 ## Configuration
 
-기본적인 NERDTree, Syntastic, vim-airline 이 설치됨.
+기본적인 NERDTree, Syntastic, vim-airline 플러그인들이 설치됨.
 
 ```
 cd ~/.vim
 git clone ... ( 미정 )
 vim "+:PlugInstall"
-
 ```
 
 
