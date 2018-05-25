@@ -7,6 +7,7 @@
 ```
 sudo apt-get update && sudo apt-get install -y vim
 sudo apt-get install -y vim-python-jedi
+sudo apt-get install -y cmake
 ```
 
 vim-plug 다운로드
