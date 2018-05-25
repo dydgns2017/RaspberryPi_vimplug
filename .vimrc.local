@@ -1,9 +1,12 @@
 map <Tab> :NERDTreeToggle<CR>
+set nu
 
 call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/syntastic'
 Plug 'vim-airline/vim-airline'
+Plug 'valloric/youcompleteme'
+Plug 'kshenoy/vim-signature'
 
 call plug#end()

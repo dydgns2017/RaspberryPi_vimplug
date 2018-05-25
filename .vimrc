@@ -53,7 +53,6 @@ runtime! debian.vim
 "set mouse=a		" Enable mouse usage (all modes)
 
 " Source a global configuration file if available
-if filereadable("./vimrc.local")
-  source /home/pi/.vim/vimrc.local
+if filereadable("/home/pi/.vimrc.local")
+  source /home/pi/.vimrc.local
 endif
-
