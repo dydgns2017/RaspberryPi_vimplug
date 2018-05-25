@@ -1,0 +1,9 @@
+map <Tab> :NERDTreeToggle<CR>
+
+call plug#begin('~/.vim/plugged')
+
+Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/syntastic'
+Plug 'vim-airline/vim-airline'
+
+call plug#end()
