@@ -17,13 +17,18 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 ## Configuration
 
+기본적인 NERDTree, Syntastic, vim-airline 이 설치됨.
+
 ```
 cd ~/.vim
 git clone ... ( 미정 )
-vim+PlugInstall+q
+vim "+:PlugInstall"
+
 ```
+
 
 
 ## Reference
 https://github.com/junegunn/vim-plug <br />
 https://bluesh55.github.io/2016/10/09/vim-ide/ <br />
+https://vimawesome.com/?q=cat%3Alanguage <br />
