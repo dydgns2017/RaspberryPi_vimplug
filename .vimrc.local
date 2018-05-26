@@ -1,5 +1,6 @@
 map <Tab> :NERDTreeToggle<CR>
 set nu
+let NERDTreeShowBookmarks=1
 
 call plug#begin('~/.vim/plugged')
 
